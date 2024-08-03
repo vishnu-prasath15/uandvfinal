@@ -376,6 +376,8 @@ header a:hover {
 
 
 /* About Section Styles */
+
+/* About Section Styles */
 #about {
   padding-top: 5%;
 }
@@ -400,6 +402,7 @@ header a:hover {
   margin: 0;
   padding: 1rem;
   box-sizing: border-box;
+  text-align: center; /* Center text */
 }
 
 .image {
@@ -501,7 +504,7 @@ header a:hover {
   .hidden-paragraph,
   #more {
     font-size: 16px;
-    text-align: center;
+    text-align: center; /* Center text */
     justify-content: center;
   }
 
@@ -517,13 +520,9 @@ header a:hover {
 
 
 
-html, body {
-    height: 100%; /* Ensure the body takes up the full viewport height */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    background-color: #fff; /* Optional: Set a background color */
-    
-}
+
+
+
 
 #products {
     padding: 2rem;
